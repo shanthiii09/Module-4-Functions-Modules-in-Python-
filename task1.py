@@ -1,9 +1,10 @@
-def factorial(n):
-  if n == 0:
+def factorial(num):
+  if num == 0:
     return 1
   else:
-    return n * factorial(n-1)
+    return num * factorial(num-1)
   
 
 num = int(input("Enter a number:"))  
+
 print(f"Factorial of {num} is: {factorial(num)}")
